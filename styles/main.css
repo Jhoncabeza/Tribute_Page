@@ -1,0 +1,101 @@
+html {
+  font-size: 10px;
+  background-color: #ebdee7;
+}
+
+body {
+  font-family: "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-align: center;
+  color: black;
+  margin: 0;
+}
+
+h1 {
+  font-size: 6rem;
+  margin: 0;
+}
+
+p {
+  font-size: 2.3rem;
+  margin: 0.5rem;
+}
+
+h2 {
+  font-size: 3.25rem;
+}
+
+a {
+  color: #858584;
+}
+
+a:hover {
+  color: #ebdee7;
+}
+
+#main {
+  margin: 30px 15px;
+  padding: 20px;
+  border-radius: 5px;
+  background: #ebdee7;
+}
+
+img {
+  max-width: 40%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  box-shadow: 2px 4px 10px rgb(28 32 42);
+}
+
+#img-div {
+  background-image: url(https://wallpaperboat.com/wp-content/uploads/2019/04/rick-and-morty-wallpaper-portal-wallpaper-001.jpg);
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0;
+}
+
+#img-caption {
+  margin-top: 20px;
+  font-size: 2rem;
+  background-color: #ebdee7;
+  margin-left: 660px;
+  margin-right: 660px;
+}
+
+#headline {
+  margin: 50px 0;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+blockquote {
+  font-style: italic;
+  max-width: 545px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  font-size: 2rem;
+}
+
+@media (max-width: 460px) {
+  #img-caption {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 460px) {
+  #main {
+    margin: 0;
+  }
+}
+
+@media (max-width: 460px) {
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+  }
+}
